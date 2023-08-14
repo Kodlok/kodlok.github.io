@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #f4f4f4 30%, #A8FF764D);
+}
+
+h1 {
+    max-width: 800px;
+}
+
+.bg-fon {
+    background-image: url("../images-second/fon-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    padding-bottom: 67px;
+}
+
+/*section-first закончилась*/
+
+.s-second {
+    padding: 40px 0 32px 0;
+}
+
+.foot {
+    color: #24CB61;
+    font-family: Montserrat-bold, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.choose {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.tarifs {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.tarif {
+    width: 280px;
+    height: 320px;
+    background-color: #fff;
+    text-align: center;
+    padding: 60px 40px 32px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 0px #1D1E261A;
+}
+
+.month {
+    font-size: 16px;
+    font-family: Montserrat-bold, sans-serif;
+    margin-bottom: 24px;
+    line-height: 19.5px;
+}
+
+.money  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    line-height: 63.39px;
+}
+
+.dollar {
+    font-family: Montserrat-Black, sans-serif;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.value {
+    font-family: Montserrat-Black, sans-serif;
+    font-size: 52px;
+    margin-top: 5px;
+}
+
+.in-month {
+    font-size: 12px;
+    margin-bottom: 42px;
+    line-height: 21px;
+}
+
+.choose-btn {
+    margin-bottom: 16px;
+    width: 200px;
+}
+
+.garant {
+    font-family: Open-sans, sans-serif;
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.the-most-tarif {
+    height: 380px;
+    border: solid 4px #24CB61;
+}
+
+.sale {
+    text-decoration: line-through;
+    color: #9B9B9B;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.the-most-tarif .in-month {
+    margin-bottom: 60px;
+}
+
+/*section second закончился*/
+
+.s-third {
+    padding: 32px 0 0 0 ;
+    background-image: url("../images-second/fon-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.garant-info {
+    color: #9B9B9B;
+    font-size: 12px;
+    font-family: Open-sans, sans-serif;
+    max-width: 565px;
+    margin-bottom: 24px;
+}
+
+.your-email {
+    padding: 22px 20px;
+    border: 1px solid #DADADA;
+    border-radius: 7px;
+    max-width: 508px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.your-email::placeholder {
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+.defend {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.def-text {
+    margin: 3px 0 0 7px;
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.method {
+    display: flex;
+    max-width: 488px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #F3F3F3;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.method:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.method-text {
+    margin-right: 21px;
+}
+
+.triangle {
+    position: absolute;
+    right: 17px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-info {
+    max-width: 384px;
+    border: 1px solid #DADADA;
+    border-radius: 7px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+}
+
+.order-info-title {
+    font-size: 17px;
+    font-family: Montserrat-bold, sans-serif;
+    margin-bottom: 6px;
+    line-height: 41px;
+}
+
+.your-tarif {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    line-height: 41px;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 10px;
+}
+
+.order-sum {
+    display: flex;
+    font-size: 18px;
+    font-family: Montserrat-bold, sans-serif;
+    justify-content: space-between;
+    margin: 18px 0 40px 0;
+}
+
+.econom {
+    color: #2ECC71;
+    font-size: 12px;
+}
+
+.order-data {
+    font-size: 12px;
+    line-height: 21px;
+    font-family: Open-sans, sans-serif;
+    color: #9B9B9B;
+    margin-bottom: 30px;
+}
+
+.fon-3 {
+    background-image: url("../images-second/fon-3.png");
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*section third закончился*/
+

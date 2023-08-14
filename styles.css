@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat-regular;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Open-sans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-black;
+    src: url("../fonts/Montserrat-Black.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+body {
+    font-family: Montserrat-Reular, sans-serif;
+    background: linear-gradient(to right, #f4f4f4 30%, #A8FF764D,rgba(255, 242, 208, 0.64));
+}
+/*#FFF2D0*/
+
+.bg-fon {
+    background-image: url("../images/fon-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1042px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 37px 0 86px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-on-of {
+    margin: auto 0;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+}
+
+.black-triangle {
+    margin:3px 0 0 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: auto 64px auto 0;
+    font-size: 18px;
+}
+
+.language-flex {
+    display: flex;
+}
+
+.language-flex a {
+    margin: auto 0;
+}
+
+.language-flex .rus {
+    margin-left: 10px;
+}
+/*header закончился */
+
+.first {
+    padding-bottom: 150px;
+}
+
+h1  {
+    font-family: Montserrat-Black, sans-serif;
+    font-size: 52px;
+    max-width: 608px;
+    margin: 0 auto 24px auto;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.kebab-info {
+    font-size: 24px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.button-center {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.button {
+    padding: 18px 30px 18px 30px;
+    border-radius: 72px;
+    background-color: #C2FBD7;
+    border: 0;
+    color: #008000;
+    box-shadow: 0 10px 10px rgba(44, 187, 99, 0.3);
+    font-family: Roboto-regular, sans-serif;
+    cursor: pointer;
+}
+
+
+/*section1 закончилась*/
+
+.bg-fon2 {
+    background-image: url("../images/fon-3.png");
+    padding: 0 0 74px 0;
+}
+
+.why-trust {
+    padding: 64px 0 75px 0;
+}
+
+.beautiful {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.beautiful .h2 {
+    margin: 0 24px;
+    font-size: 24px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit {
+    width: 280px;
+    height: 361px;
+    background-color: #fff;
+    text-align: center;
+    padding: 32px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px #1D1E261A;
+
+}
+
+.benefit:hover {
+    box-shadow: 0 2px 9px 0 black;
+    transition: all .3s ease;
+}
+
+.benefit h4 {
+    margin: 32px 0 12px 0;
+    font-family: Montserrat-bold, sans-serif;
+    font-size: 16px;
+}
+
+.benefit .benefit-text {
+    font-size: 12px;
+    line-height: 21px;
+    max-width: 230px;
+}
+
+.benefit:not(:last-child) {
+    margin-right: 24px;
+}
+
+.second {
+    background-image: url("../images/fon-2.png");
+    padding: 64px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join-in {
+    font-size: 24px;
+    text-align: center;
+    max-width: 480px;
+    line-height: 41px;
+    margin: 0 auto 24px auto;
+}
+
+.join-in span {
+    font-family: Montserrat-bold, sans-serif;
+}
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.comment {
+    display: flex;
+    background-color: #F3F3F3;
+    max-width: 433px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 24px 78px 24px 24px;
+}
+
+.comment-text {
+    margin-left: 24px;
+    font-size: 14px;
+}
+/*section2 законичлся*/
+
+footer {
+    padding: 50px 64px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-links {
+    margin-bottom: 18px;
+}
+
+.big-links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.big-links a:not(:last-child) {
+    margin-right: 64px;
+}
+
+.small-links a:not(:last-child) {
+    margin-right: 24px;
+}
+
+.small-links a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*1 страничка закончена*/
+
+.second-bg-fon {
+    background-image: url("../images-second/fon-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button:hover{
+    box-shadow: 0 2px 9px 0 black;
+    transition: all .3s ease;
+}
+
+a:hover {
+    opacity: 60%;
+}
+

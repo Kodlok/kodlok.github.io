@@ -1,0 +1,76 @@
+.header {
+    background-image: url("../images/fon-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px
+}
+
+.main {
+    padding: 64px 0 229px 0;
+}
+
+
+.form {
+    max-width: 464px;
+    background-color: #fff;
+    text-align: center;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px 0px #1D1E261A;
+}
+
+.form a {
+    color: #008000;
+    font-family: Roboto-regular, sans-serif;
+    font-size: 16px;
+    text-decoration: #008000 underline;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: left;
+}
+
+.email, .password {
+    padding: 22px 20px;
+    border: 1px solid #DADADA;
+    border-radius: 7px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 18px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+}
+
+.login-in-kebab {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.help {
+    margin: 18px 0 24px 0;
+}
+
+.buy-kebab {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-text {
+    color: #9B9B9B;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.forgot-password {
+    padding-right: 18px;
+    border-right: 2px solid #9B9B9B ;
+    margin-right: 17px;
+}
+
+footer {
+    padding: 0 0 75px 0;
+}
